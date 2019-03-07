@@ -16,7 +16,7 @@ freebsd_12_task:
     - gmake -j8 V=1 check
 macos_task:
   osx_instance:
-    image: high-sierra-base
+    image: mojave-base
   env:
     CIRRUS_CLONE_DEPTH: 1
   install_script:
